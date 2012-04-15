@@ -22,7 +22,7 @@ class My_Bootstrap_Form extends Twitter_Bootstrap_Form_Inline
             'placeholder'   => 'E-mail',
             'prepend'       => '@',
             'class'         => 'focused'
-        );
+        ));
 
         $this->addElement('password', array(
             'placeholder' => 'Password'
@@ -348,3 +348,8 @@ Bootstrap CSS.
 ```
 
 So that's it. Now you can start creating forms and rendering them the way shown before and you will get nice forms!
+
+## Contributors ##
+
+* __adepretis__ <ad@25th-floor.com>
+* __rafalgalka__ <http://blog.modernweb.pl>
